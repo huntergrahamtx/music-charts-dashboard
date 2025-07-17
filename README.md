@@ -1,11 +1,20 @@
 # music-charts-dashboard
+
 A music dashboard synthesizing data from multiple streaming services to visualize the most popular music around the world.
 
 ## Current Progress
-- Refined scope of dashboard to just working with artist/track/release data, along with country and time attributes to filter the data with. This was from an original idea of also being able to have a 'genre' attribute, but it (unfortunately) turns out that genre tagging music is incredibly messy, even among the major streaming services; it's simply not reliable nor complete.
 
-- Feature list drafted.
+\- Revamped the original Canvas draft and instead made the Data Flow visual that depicts how data will ultimately flow to the music dashboard
 
-- Dashboard concept was sketched out in an Obsidian Canvas file. This will come in handy as the exact API calls and data sources for each feature can be visually referenced.
+&nbsp;	- This is "on paper", i.e. before coding has been done, but I wanted a roadmap to be established for both myself and for documentation purposes
 
-- Various API sources conceptually refined.
+\- Replaced API terminology to reflect standard vocabulary (versus what I was originally calling it)
+
+\- Refined the 'Project Process Steps' note
+
+\- Researched and integrated how the 'ytmusicapi' Python package will be used to complement Spotify's API for the music dashboard
+
+\- Narrowed scope of the dashboard to just reflect Top Tracks and Top Artists in the available countries (via YouTube Music)
+
+\- The first pass of designing the SQLite database schema was completed
+
