@@ -3,17 +3,17 @@
 Tags: [[personal projects]] [[music dashboard project]] [[Spotify]] [[last.fm]]
 
 ## Dashboard Outline
-- **Main Header (Top Artists, Top Tracks, Top Releases, etc.)**
+- **Main Header (Top Artists, Top Tracks, ~~Top Releases~~, etc.)**
 - **Main Filters**
 - **Cards:**
 	- Top Artist
-	- Top Album
+	- ~~Top Album~~
 	- Top Track
 	**These cards stay static within a country selection.**
 - **Interactive World Map**
 	- country's top artists
 	- country's top tracks
-	- country's top releases
+	- ~~country's top releases~~
 
 - **Top 10 Table**
 	- rank (last.fm)
@@ -35,7 +35,7 @@ Tags: [[personal projects]] [[music dashboard project]] [[Spotify]] [[last.fm]]
 ## Filters
 - date range (week)
 - country (map selection)
-- artist/track/release view
+- artist/track/~~release~~ view
 
 ## Feature Details
 - color coding for increase/decrease
@@ -49,7 +49,7 @@ Tags: [[personal projects]] [[music dashboard project]] [[Spotify]] [[last.fm]]
 
 ## Connected Notes / References
 [[_Project Scope]]
-[[Visualization Source Map.canvas|Visualization Source Map]]
+[[Data Sources visual.canvas|Visualization Source Map]]
 
 
 [How to create geographic maps using Power BI - Filled and bubble maps](https://www.sqlshack.com/how-to-create-geographic-maps-using-power-bi-filled-and-bubble-maps/)
