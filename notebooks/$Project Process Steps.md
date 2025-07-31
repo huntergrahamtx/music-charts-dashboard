@@ -10,7 +10,7 @@ Tags: [[music dashboard project]] [[personal projects]]
 4. [x] Outline technical roadmap/blueprint, from data gathering to visualizations
 	1. [x] Map out each source of a feature
 5. [x] Design database schema
-6. [ ] Build out project parts (database, API calls, visuals) individually
+6. [ ] Build out MVP parts (database, API calls, visuals) individually
 	1. [ ] SQLite database
 	2. [ ] Python
 		1. [ ] pseudocode

@@ -3,13 +3,32 @@ Tags: [[personal projects]] [[music dashboard project]] #programming
 
 ## **Project Log**
 
+#### 7/31/2025
+- designed the basic data structure to be used for holding all data through the ETL process (dictionary per country, list of dictionaries for each record)
+- built more pseudocode for the ETL process
+
+#### 7/30/2025
+- built more pseudocode for the ETL process
+	- sketched out data structures for the ETL process - what kind to use, and where
+
+#### 7/29/2025
+- updated datatypes for tables in the database schema outline to reflect SQLite datatypes 
+- built Time table in Excel and converted to .csv to be imported into the database
+- created test data for each table to be ready for importation via .csv files
+#### 7/24/2025
+- Set up and obtained Google API credentials
+- Starting documenting technical process for SQLite database
+- Started building out test database (for MVP run)
+#### 7/21/2025
+ - Added `spotify_artist_id` foreign key to `track` table in database
+	 - Added relationship in SQLite Schema visual in [[@Data Flow visual]]
 #### 7/17/2025
-- Polished [[Data Flow visual]]
+- Polished [[@Data Flow visual]]
 	- condensed entities
 	- straightened and aligned boxes
 
 #### 7/16/2025
-- Finished [[Data Flow visual]]
+- Finished [[@Data Flow visual]]
 - Finished first draft of the database schema
 #### 7/15/2025
 - Started an ETL process visual
@@ -46,8 +65,25 @@ Tags: [[personal projects]] [[music dashboard project]] #programming
 
 ## **Backlog**
 
-- [ ] what exactly is the MVP?
-- [ ] COMMIT!
+<span style="background:#fff88f">Use</span> #todo <span style="background:#fff88f">!</span>
+
+- [ ] build test SQLite database in Python
+	- [x] ~~build Time table in Excel and convert to .csv for import~~
+- [ ] confirm pseudocode looks/sounds good
+	- [x] ~~step [[1. Create and prepare data structure for the API calls and responses]]~~
+	- [x] ~~step [[2. Make Get_Charts() YouTube Music API call and parse responses]]~~
+	- [ ] step [[3. Search For Item() Spotify API Calls]]
+	- [x] ~~step [[4. Get Track(), Get Artist() Spotify API Calls]]~~
+	- [x] ~~step [[5. Assemble all stored API responses for insertion into the database]]~~
+	- [ ] step [[6. Validate All API Responses]]
+	- [ ] step [[7. Load assembled data into the database]]
+	- [ ] step [[8. Query and ready data for the dashboard]]
+- [ ] run Python script queries against test database
+- [ ] move on to ETL scripts afterwards
+- [x] ~~finish SQLite note [[__SQLite Notes]]~~
+- [x] ~~adjust [[_SQLite Schema]] datatypes to reflect SQLite datatypes~~
+- [x] ~~start building out first code snippet~~
+- [x] ~~obtain YouTube Music API authorization credentials~~
 - [x] ~~build technical map of how the APIs will be joined within visualizations~~
 - [x] ~~build out database schema for storing API responses~~
 - [x] ~~explore the 'ytmusicapi' Python library more and see if it'd be a net positive for the project ([sigma67/ytmusicapi: Unofficial API for YouTube Music](https://github.com/sigma67/ytmusicapi))~~

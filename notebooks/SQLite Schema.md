@@ -1,56 +1,60 @@
 2025-05-30 15:43
 
-Tags: [[music dashboard project]] [[databases]]
+Tags: [[music dashboard project]] [[databases]] 
 
-## Tables
+## **Tables**
 ### `artist`
 **`artist`** table
 
-| attribute          | datatype               |
-| ------------------ | ---------------------- |
-| spotify_artist_id  | char **PK**            |
-| week_ending        | date **PK**, **FK**    |
-| country            | char(2) **PK**, **FK** |
-| artist_name        | char                   |
-| artist_ranking     | int                    |
-| artist_popularity  | int                    |
-| artist_image_url   | text                   |
-| artist_preview_url | text                   |
+| attribute          | datatype              |
+| ------------------ | --------------------- |
+| spotify_artist_id  | `TEXT` **PK**         |
+| week_ending        | `TEXT` **PK**, **FK** |
+| country_code       | `TEXT` **PK**, **FK** |
+| artist_name        | `TEXT`                |
+| artist_ranking     | `INTEGER`             |
+| artist_popularity  | `INTEGER`             |
+| artist_image_url   | `TEXT`                |
+| artist_preview_url | `TEXT`                |
 
 
 ### `track`
 **`track`** table
 
-| attribute         | datatype           |
-| ----------------- | ------------------ |
-| spotify_track_id  | char **PK**        |
-| week_ending       | date **PK, FK**    |
-| country           | char(2) **PK, FK** |
-| track_name        | char               |
-| artist_name       | char               |
-| track_ranking     | int                |
-| track_popularity  | int                |
-| track_image_url   | text               |
-| track_preview_url | text               |
+| attribute         | datatype          |
+| ----------------- | ----------------- |
+| spotify_track_id  | `TEXT` **PK**     |
+| week_ending       | `TEXT` **PK, FK** |
+| country_code      | `TEXT` **PK, FK** |
+| spotify_artist_id | `TEXT` **FK**     |
+| track_name        | `TEXT`            |
+| artist_name       | `TEXT`            |
+| track_ranking     | `INTEGER`         |
+| track_popularity  | `INTEGER`         |
+| track_image_url   | `TEXT`            |
+| track_preview_url | `TEXT`            |
 
 ### `time`
 **`time`** table
 
-| attribute   | datatype    |
-| ----------- | ----------- |
-| week_ending | date **PK** |
-| month       | char        |
-| quarter     | char        |
-| year        | char        |
+| attribute   | datatype      |
+| ----------- | ------------- |
+| week_ending | `TEXT` **PK** |
+| month       | `INTEGER`     |
+| quarter     | `INTEGER`     |
+| year        | `INTEGER`     |
+
+
+<span style="background:#fff88f">^convert 'week_ending' values to *YYYY-MM-DD* to keep things easy for longevity</span>
 
 ### `country`
 
 **`country`** table
 
-| attribute    | datatype       |
-| ------------ | -------------- |
-| country_code | char(2) **PK** |
-| country_name | char           |
+| attribute    | datatype      |
+| ------------ | ------------- |
+| country_code | `TEXT` **PK** |
+| country_name | `TEXT`        |
 
 
 ## Connected Notes / References
