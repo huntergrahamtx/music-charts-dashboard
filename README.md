@@ -1,16 +1,11 @@
-# music-charts-dashboard
+\## music-charts-dashboard
 
 A music dashboard synthesizing data from multiple streaming services to visualize the most popular music around the world.
 
 
 
-## Current Progress as of 7/31/2025
+\### Current Progress as of 8/26/2025
 
-\- Updated database schema to reflect SQLite datatypes
-
-\- Prepared test data and initial script for database creation
-
-\- Wrote out high-level ETL processing steps
-
-&nbsp;	- Started pseudocode for each step
-
+* Rotated API keys after accidentally posting former keys to the repo
+* Finished test script for database creation, test data insertion, and data retrieval
+* Started extract() function script: .env file accessed that contains API keys; ytmusicapi oauth.json file created with project credentials
