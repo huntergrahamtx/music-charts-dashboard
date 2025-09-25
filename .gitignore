@@ -1,6 +1,7 @@
 .env
 __pycache__/
 *.pyc
-API keys.env
 oauth.json
 .venv/
+/.vscode
+.cache

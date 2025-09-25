@@ -4,8 +4,10 @@ A music dashboard synthesizing data from multiple streaming services to visualiz
 
 
 
-\### Current Progress as of 8/26/2025
+\### Current Progress as of 9/25/2025
 
-* Rotated API keys after accidentally posting former keys to the repo
-* Finished test script for database creation, test data insertion, and data retrieval
-* Started extract() function script: .env file accessed that contains API keys; ytmusicapi oauth.json file created with project credentials
+- Renamed .env file
+- Changed local hardcoded directory references to relative references
+- Added `requirements.txt` file for dependency management
+- Removed authentication steps for Google Cloud API for YouTube Music (no longer needed)
+- Completed minimum A-Z data extraction steps
