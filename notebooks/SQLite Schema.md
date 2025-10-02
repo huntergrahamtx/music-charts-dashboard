@@ -12,7 +12,7 @@ Tags: [[music dashboard project]] [[databases]]
 | week_ending        | `TEXT` **PK**, **FK** |
 | country_code       | `TEXT` **PK**, **FK** |
 | artist_name        | `TEXT`                |
-| artist_ranking     | `INTEGER`             |
+| artist_rank        | `INTEGER`             |
 | artist_popularity  | `INTEGER`             |
 | artist_image_url   | `TEXT`                |
 | artist_preview_url | `TEXT`                |
@@ -29,7 +29,7 @@ Tags: [[music dashboard project]] [[databases]]
 | spotify_artist_id | `TEXT` **FK**     |
 | track_name        | `TEXT`            |
 | artist_name       | `TEXT`            |
-| track_ranking     | `INTEGER`         |
+| track_rank        | `INTEGER`         |
 | track_popularity  | `INTEGER`         |
 | track_image_url   | `TEXT`            |
 | track_preview_url | `TEXT`            |

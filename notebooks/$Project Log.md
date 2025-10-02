@@ -3,9 +3,39 @@ Tags: [[personal projects]] [[music dashboard project]] #programming
 
 ## **Project Log**
 
+#### 9/30/2025 - 10/2/2025
+- Completed A-Z data processing for artist data
+	- Database creation/connection
+	- Created latest week-ending date logic in Python
+	- Completed logic for storing and loading into DB all artist data from both YouTube Music and Spotify API responses
+- Completed and published the first iteration of the Artist dashboard
+
+#### 9/29/2025
+- Added `for` loops to extend data retrieval depth 
+- Added logic for inserting extracted data into SQLite database
+- Added logic for dropping `.csv` files for Power BI dashboard
+- Started implementing dashboard in Power BI from original [[@Dashboard concept sketch]] mockup
+#### 9/25/2025
+- Completed first data retrieval pass for artists (searching YouTube Music for a country's top artists -> having a complete dataframe with all needed artists data, including from Spotify)
+#### 8/28/2025
+- everything that's needed from Spotify's API can be retrieved in the `spotipy.search()` method's JSON response. We need to update the [[@Data Flow visual]] schematic.
+- completed the YouTube Music API portion for retrieving artists (first pass)
+- started the equivalent Spotify API section
+
+#### 8/27/2025
+- fixed authentication time-out with Google credentials
+- successfully made API calls to YouTube Music's API and parsed their responses with the `JMESPath` package
+
+#### 8/26/2025
+- finished building database test script
+- started `extract.py` script
+	- accessed .env files
+	- created `oath.json` file for YouTube music workaround credential
+
 #### 7/31/2025
 - designed the basic data structure to be used for holding all data through the ETL process (dictionary per country, list of dictionaries for each record)
 - built more pseudocode for the ETL process
+- rotated API keys after committing the former API keys to the repo...
 
 #### 7/30/2025
 - built more pseudocode for the ETL process
@@ -65,21 +95,28 @@ Tags: [[personal projects]] [[music dashboard project]] #programming
 
 ## **Backlog**
 
-<span style="background:#fff88f">Use</span> #todo <span style="background:#fff88f">!</span>
-
-- [ ] build test SQLite database in Python
-	- [x] ~~build Time table in Excel and convert to .csv for import~~
-- [ ] confirm pseudocode looks/sounds good
+- [ ] containerized environment for GitHub
+- [ ] "Driver Script" to automate Python scripts weekly (probably Monday's)
+- [ ] Refactor code into higher-level functions
+- [ ] Add data process for Track data
+	- [ ] Can both Artist and Track data be combined into one Power BI dashboard like intended?
+- [ ] Build finalized Data Processing visual
+- [ ] Build-out testing in scripts
+- [ ] Write project report
+- [x] ~~`requirements` file working~~
+- [x] ~~PowerBI visuals~~
+- [x] ~~hosted working MVP on GitHub~~
+- [x] ~~confirm pseudocode looks/sounds good~~
 	- [x] ~~step [[1. Create and prepare data structure for the API calls and responses]]~~
 	- [x] ~~step [[2. Make Get_Charts() YouTube Music API call and parse responses]]~~
-	- [ ] step [[3. Search For Item() Spotify API Calls]]
+	- [x] ~~step [[3. Search For Item() Spotify API Calls]]~~
 	- [x] ~~step [[4. Get Track(), Get Artist() Spotify API Calls]]~~
 	- [x] ~~step [[5. Assemble all stored API responses for insertion into the database]]~~
-	- [ ] step [[6. Validate All API Responses]]
-	- [ ] step [[7. Load assembled data into the database]]
-	- [ ] step [[8. Query and ready data for the dashboard]]
-- [ ] run Python script queries against test database
-- [ ] move on to ETL scripts afterwards
+	- [x] ~~step [[6. Validate All API Responses]]~~
+	- [x] ~~step [[7. Load assembled data into the database]]~~
+	- [x] ~~step [[8. Query and ready data for the dashboard]]~~
+- [x] ~~build test SQLite database in Python~~
+	- [x] ~~build Time table in Excel and convert to .csv for import~~
 - [x] ~~finish SQLite note [[__SQLite Notes]]~~
 - [x] ~~adjust [[_SQLite Schema]] datatypes to reflect SQLite datatypes~~
 - [x] ~~start building out first code snippet~~

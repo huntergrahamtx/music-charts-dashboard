@@ -1,13 +1,13 @@
-\## music-charts-dashboard
+## music-charts-dashboard
 
 A music dashboard synthesizing data from multiple streaming services to visualize the most popular music around the world.
 
+[View the dashboard here.](https://linkly.link/2Fuf6)
 
+### Current Progress as of 10/2/2025
+- Completed A-Z data processing for Artist data
+- Artist music dashboard iteration #1 completed and published
 
-\### Current Progress as of 9/25/2025
+### Next Step
+- Build the "driver" script to automate project code weekly
 
-- Renamed .env file
-- Changed local hardcoded directory references to relative references
-- Added `requirements.txt` file for dependency management
-- Removed authentication steps for Google Cloud API for YouTube Music (no longer needed)
-- Completed minimum A-Z data extraction steps

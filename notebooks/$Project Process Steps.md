@@ -10,19 +10,22 @@ Tags: [[music dashboard project]] [[personal projects]]
 4. [x] Outline technical roadmap/blueprint, from data gathering to visualizations
 	1. [x] Map out each source of a feature
 5. [x] Design database schema
-6. [ ] Build out MVP parts (database, API calls, visuals) individually
-	1. [ ] SQLite database
+6. [x] Build out MVP parts (database, API calls, visuals) individually
+	1. [x] SQLite database
 	2. [ ] Python
-		1. [ ] pseudocode
+		1. [x] pseudocode
 		2. [ ] production code
-	3. [ ] API calls
-	4. [ ] Power BI visual
-7. [ ] Tweak and combine project phases to build the minimum viable project (MVP)
+	3. [x] API calls
+	4. [x] Power BI visual
+7. [x] Tweak and combine project phases to build the minimum viable project (MVP)
+	1. [x] `.csv` file readied for Power BI
+		1. [ ] file is refreshed weekly
+	2. [x] report is built in Power BI desktop
+	3. [x] dashboard is published to [app.powerbi.com]()
 8. [ ] Extend MVP to full project scope
-9. [ ] Write lessons learned/internal docs on takeaways
-10. [ ] Run testing
-11. [ ] Publish outline of project steps (Jupyter notebook or similar)
-12. [ ] Publish project to GitHub
+	1. [ ] Automatic refreshed file
+	2. [ ] Code refactoring to high-level function calls
+9. [x] Publish project to GitHub
 
 
 

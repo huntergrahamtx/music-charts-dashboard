@@ -5,3 +5,4 @@ oauth.json
 .venv/
 /.vscode
 .cache
+/test_data
