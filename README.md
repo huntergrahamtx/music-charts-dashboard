@@ -1,7 +1,7 @@
 ## Music Charts Dashboard
 This project is an end-to-end analytics pipeline and dashboard that tracks weekly global music trends. It combines YouTube Music’s weekly Top 10 artist charts with Spotify artist metadata to create a richer, unified dataset supported by interactive visualizations.
 
-[View the dashboard here.](https://linkly.link/2Fuf6)  
+**[View the dashboard here.]([https://linkly.link/2Fuf6](https://app.powerbi.com/view?r=eyJrIjoiODc5OTQyOWQtMTkzZS00NjI5LTlmM2YtMDVkNGEyODA1ZDZkIiwidCI6IjY4ZjM4MWUzLTQ2ZGEtNDdiOS1iYTU3LTZmMzIyYjhmMGRhMSIsImMiOjN9))**  
   
 ## How it works
 1. **Extract:** Python code calls the YouTube Music API to pull the top 10 artists per country each week, then enriches that data with Spotify’s API (artist ID, popularity score, images, preview links) to build out a more comprehensive view of top artists.
